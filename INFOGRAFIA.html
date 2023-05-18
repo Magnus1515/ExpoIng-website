@@ -2,7 +2,44 @@
 <html>
 <head>
 <style>
-div.gallery {
+* CSS for slideshow */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* CSS for description */
+.desc {
+  text-align: center;
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+
+/* CSS for navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+  div.gallery {
   border: 1px solid #ccc;
 }
 
@@ -55,7 +92,7 @@ div.desc {
 <h2>INFORGRAFIAS</h2>
   <div class="gallery">
     <a target="_blank" href="imgtop.jpg">
-      <img src="imgtop.jpg" alt="Top Image" width="600" height="400">
+      <img src="https://drive.google.com/uc?export=view&id=1ZW93e1GKjRV_yAgch0fVTNHo3g3txAZH" alt="Top Image" width="600" height="400">
     </a>
     <div class="desc">DESCRIPCION</div>
   </div>
