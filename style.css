@@ -169,8 +169,49 @@ Archivos que estaban teniendo conflictos
 
 .google-map iframe {
     height: 100%;
-    width: 100%;
+    width: 102vh;
     left: 0;
     top: 0;
     position: absolute;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+/* Textos prinicpales */
+.info-presentacion{
+    font-weight: 600;
+    font-size: 38px;
+    color: white;
+}
+
+.info-principal{
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+.info-lugar{
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+.info-lugar-titulo{
+    font-weight: 600;
+    font-size: 38px;
+    color: white;
+}
+/* seccion dark */
+
+.info-section,
+.place-section,
+.column-info{
+    background-color: black;
+}
+
+
+
+/* seccion preguntas footer */
+.fa-facebook,.fa-whatsapp,.fa-instagram,.fa-envelope {
+    font-size: 3rem; /* Increase the font size as desired */
+    color: black; /* Change the color as desired */
 }
