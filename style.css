@@ -182,23 +182,23 @@ body{
 .info-presentacion{
     font-weight: 600;
     font-size: 38px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .info-principal{
     font-weight: 300;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 .info-lugar{
     font-weight: 300;
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .info-lugar-titulo{
     font-weight: 600;
     font-size: 38px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .info-evento-pasado{
     font-weight: 300;
@@ -210,13 +210,13 @@ body{
 .info-section,
 .place-section,
 .column-info{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
-
-
 
 /* seccion preguntas footer */
 .fa-facebook,.fa-whatsapp,.fa-instagram,.fa-envelope {
     font-size: 3rem; 
     color: black; 
 }
+
+
