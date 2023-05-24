@@ -73,18 +73,18 @@
 }
 
 
-.google-map {
+/* .google-map {
     padding-bottom: 50%;
     position: relative;
 }
-
-.google-map iframe {
+*/
+/* .google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     position: absolute;
-}
+}  */
 
 Archivos que estaban teniendo conflictos
 #columnas{
@@ -181,7 +181,7 @@ body{
 /* Textos prinicpales */
 .info-presentacion{
     font-weight: 600;
-    font-size: 38px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
 }
 
@@ -192,7 +192,7 @@ body{
 }
 .info-lugar{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 28px;
     color: rgb(0, 0, 0);
 }
 .info-lugar-titulo{
