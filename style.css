@@ -28,7 +28,7 @@
 
 
 .contact-container {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -73,24 +73,12 @@
 }
 
 
-.google-map {
-    padding-bottom: 50%;
-    position: relative;
-}
 
-.google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-
-Archivos que estaban teniendo conflictos
 #columnas{
     column-count:1;
     column-gap:30px;
     list-style: none;
+    
 }
 
 @media (min-width: 992px) {
@@ -181,42 +169,69 @@ body{
 /* Textos prinicpales */
 .info-presentacion{
     font-weight: 600;
-    font-size: 38px;
-    color: white;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
 }
 
 .info-principal{
     font-weight: 300;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 .info-lugar{
     font-weight: 300;
-    font-size: 30px;
-    color: white;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
 }
 .info-lugar-titulo{
     font-weight: 600;
     font-size: 38px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .info-evento-pasado{
     font-weight: 300;
     font-size: 30px;
     color: black;
 }
-/* seccion dark */
-
-.info-section,
-.place-section,
-.column-info{
-    background-color: black;
+.info-inv{
+    font-weight: 600;
+    font-size: 36px;
 }
-
+.info-footer{
+    font-weight: 600;
+    font-size: 36px;
+}
 
 
 /* seccion preguntas footer */
 .fa-facebook,.fa-whatsapp,.fa-instagram,.fa-envelope {
     font-size: 3rem; 
     color: black; 
+}
+
+.navbar{
+    padding: 10rem;
+    
+}   
+.navbar a{
+    font-size: 20px;
+    font-weight: 300px;
+}  
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+}
+#columnas li{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300px;
+
 }
